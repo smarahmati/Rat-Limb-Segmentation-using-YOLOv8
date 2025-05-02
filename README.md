@@ -78,9 +78,11 @@ package](https://pypi.org/project/ultralytics). The process is:
 
 -   [**Ultralytics (YOLOv8)**](https://pypi.org/project/ultralytics)
 
+<pre> ``` 
 bash
 
 pip install ultralytics
+``` </pre>
 
 -   **OpenCV** for image & video operations
 
