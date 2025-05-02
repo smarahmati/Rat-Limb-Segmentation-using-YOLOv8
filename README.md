@@ -99,9 +99,9 @@ https://download.pytorch.org/whl/cu118
 
 *(Adjust the cu118 or cu11x part depending on your CUDA version.)*
 
-**Scripts**
+## Scripts
 
-**A_Segmentation.py**
+## A_Segmentation.py
 
 -   **Goal:** Manually annotate frames from a video with polygons
     representing each segment (thigh, shank, paw).
@@ -132,7 +132,7 @@ https://download.pytorch.org/whl/cu118
 shank, and paw</p>
 
 
-**B_YOLO_training_GPU.py**
+## B_YOLO_training_GPU.py
 
 -   **Goal:** Convert manual annotations into a YOLOv8 dataset and train
     a segmentation model.
@@ -161,7 +161,7 @@ shank, and paw</p>
     -   Trains the model for a specified number of epochs, saving the
         best model (best.pt) and also a final .pt checkpoint.
 
-**C_Apply_YOLO.py**
+## C_Apply_YOLO.py
 
 -   **Goal:** Run inference on new videos using the trained YOLOv8 model
     to obtain segmentations in each frame.
@@ -193,19 +193,22 @@ shank, and paw</p>
 
 
 <p align="center">
-  <img src="images/Fig2.gif" alt="Comparison of the original and segmented" width="700">
+  <img src="images/Fig2.gif" alt="Original vs. segmented frames" width="700">
 </p>
-<p align="center"><b>Figure 2.</b> Comparison of the original (top) and segmented (bottom) rat
-video frames.</p>
+<p align="center">
+  <strong>Figure 2.</strong> Comparison of original (top) and segmented (bottom) rat video frames.  
+  The MP4 version of this video is available 
+  <a href="https://github.com/smarahmati/Rat-Limb-Segmentation-using-YOLOv8/raw/master/results/segmented_output.mp4">here</a>.
+</p>
 
 ------------------------------------------------------------------------
 
-**Usage Steps**
+## Usage Steps
 
 Below is a stepwise outline for using these scripts. Adjust paths and
 parameters as needed.
 
-**1. Manual Segmentation**
+## 1. Manual Segmentation
 
 1.  **Open A_Segmentation.py.**
 
@@ -242,7 +245,7 @@ parameters as needed.
     -   The script periodically **auto-saves** your annotations into
         JSON & XLSX.
 
-**2. Training the YOLOv8 Model**
+## 2. Training the YOLOv8 Model
 
 1.  **Open B_YOLO_training_GPU.py.**
 
@@ -275,7 +278,7 @@ parameters as needed.
     -   **After training**, it copies best.pt to trained_model.pt
         (default name), which you can use for inference.
 
-**3. Applying the Trained Model**
+## 3. Applying the Trained Model
 
 1.  **Open C_Apply_YOLO.py.**
 
@@ -307,7 +310,7 @@ parameters as needed.
 
 ------------------------------------------------------------------------
 
-**Notes on Technical Details**
+## Notes on Technical Details
 
 -   **YOLOv8 Segmentation**\
     We rely on the ultralytics package, which extends YOLOv8 to segment
@@ -328,7 +331,7 @@ parameters as needed.
 
 ------------------------------------------------------------------------
 
-**Acknowledgments**
+## Acknowledgments
 
 -   [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) for
     the core segmentation.
@@ -345,7 +348,7 @@ want to contribute improvements!
 
 ------------------------------------------------------------------------
 
-**Contact**
+## Contact
 
 For questions or comments, please reach out to:
 
