@@ -135,8 +135,12 @@ https://download.pytorch.org/whl/cu118
 
     -   Storing segmentation data into .json and .xlsx files.
 
-Figure 1. Interactive polygon annotation for the rat's right thigh,
-shank, and paw
+<p align="center">
+  <img src="images/Fig1.png" alt="Interactive polygon annotation" width="700">
+</p>
+<p align="center"><b>Figure 1.</b> Interactive polygon annotation for the rat's right thigh,
+shank, and paw</p>
+
 
 **B_YOLO_training_GPU.py**
 
@@ -197,8 +201,12 @@ shank, and paw
     -   Records the boundary and interior pixel coordinates in an Excel
         file for further analysis (frame-by-frame).
 
-Figure 2. Comparison of the original (top) and segmented (bottom) rat
-video frames.
+
+<p align="center">
+  <img src="images/Fig2.gif" alt="Comparison of the original and segmented" width="700">
+</p>
+<p align="center"><b>Figure 2.</b> Comparison of the original (top) and segmented (bottom) rat
+video frames.</p>
 
 ------------------------------------------------------------------------
 
