@@ -78,11 +78,11 @@ package](https://pypi.org/project/ultralytics). The process is:
 
 -   [**Ultralytics (YOLOv8)**](https://pypi.org/project/ultralytics)
 
-<pre> ``` 
+<pre>
 bash
 
 pip install ultralytics
-``` </pre>
+</pre>
 
 -   **OpenCV** for image & video operations
 
@@ -91,17 +91,21 @@ pip install ultralytics
 -   **Optional:** Jupyter or other IDE for easier step-by-step usage.
 
 You can install the primary requirements with:
-
+<pre>
 bash
 
 pip install opencv-python numpy matplotlib scipy openpyxl
+</pre>
 
 For GPU usage, ensure you have a compatible PyTorch install with CUDA:
 
+<pre>
 bash
 
 pip install torch torchvision torchaudio \--extra-index-url
 https://download.pytorch.org/whl/cu118
+</pre>
+
 
 *(Adjust the cu118 or cu11x part depending on your CUDA version.)*
 
