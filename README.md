@@ -18,33 +18,23 @@ includes:
 
 **Contents**
 
-1.  [Overview](#overview)
-
-2.  [Environment & Dependencies](#environment--dependencies)
-
-3.  [Scripts](#scripts)
-
-    -   [A_Segmentation.py](#a_segmentationpy)
-
-    -   [B_YOLO_training_GPU.py](#b_yolo_training_gpypy)
-
-    -   [C_Apply_YOLO.py](#c_apply_yolopy)
-
-4.  [Usage Steps](#usage-steps)
-
-    1.  [Manual Segmentation](#1-manual-segmentation)
-
-    2.  [Training the YOLOv8 Model](#2-training-the-yolov8-model)
-
-    3.  [Applying the Trained Model](#3-applying-the-trained-model)
-
-5.  [Notes on Technical Details](#notes-on-technical-details)
-
-6.  [Acknowledgments](#acknowledgments)
+1. [Overview](#overview)  
+2. [Environment & Dependencies](#environment--dependencies)  
+3. [Scripts](#scripts)  
+   - [A_Segmentation.py](#a_segmentationpy)  
+   - [B_YOLO_training_GPU.py](#b_yolo_training_gpupy)  
+   - [C_Apply_YOLO.py](#c_apply_yolopy)  
+4. [Usage Steps](#usage-steps)  
+   1. [Manual Segmentation](#1-manual-segmentation)  
+   2. [Training the YOLOv8 Model](#2-training-the-yolov8-model)  
+   3. [Applying the Trained Model](#3-applying-the-trained-model)  
+5. [Notes on Technical Details](#notes-on-technical-details)  
+6. [Acknowledgments](#acknowledgments)  
+7. [Contact](#contact)  
 
 ------------------------------------------------------------------------
 
-**Overview**
+## Overview
 
 Our goal is to segment three parts of the rat's right limb:
 
@@ -70,7 +60,7 @@ package](https://pypi.org/project/ultralytics). The process is:
 
 ------------------------------------------------------------------------
 
-**Environment & Dependencies**
+## Environment & Dependencies
 
 -   **Python 3.8+** is recommended.
 
