@@ -1,0 +1,8 @@
+train: C:\Users\smara\miniconda3\envs\yolo_env\MyScripts\Segmentation-YOLO\yolo_dataset/images
+val: C:\Users\smara\miniconda3\envs\yolo_env\MyScripts\Segmentation-YOLO\yolo_dataset/images
+test: C:\Users\smara\miniconda3\envs\yolo_env\MyScripts\Segmentation-YOLO\yolo_dataset/images
+
+names:
+  0: right_thigh
+  1: right_shank
+  2: right_paw
